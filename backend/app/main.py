@@ -18,9 +18,16 @@ app = FastAPI(title="AI Career Guidance System")
 
 FRONTEND_URL = os.getenv("FRONTEND_URL")
 
+allow_origins=[
+    FRONTEND_URL,
+    "http://localhost:5173",
+    "capacitor://localhost",
+    "http://localhost"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_URL,"https://localhost"],
+    allow_origins=allow_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
