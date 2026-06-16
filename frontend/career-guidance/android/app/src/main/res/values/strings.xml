@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">career-guidance</string>
+    <string name="title_activity_main">career-guidance</string>
+    <string name="package_name">com.carrerguidance.app</string>
+    <string name="custom_url_scheme">com.carrerguidance.app</string>
+</resources>
