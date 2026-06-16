@@ -28,11 +28,9 @@ print("===================================")
 
 # Allowed origins
 allowed_origins = [
-    "https://carrerguidance-aiproject.onrender.com",
-    "capacitor://localhost",
-    "http://localhost",
-    "http://localhost:5173"
-]
+  "https://peoplevoice-webapplicatiion.onrender.com",
+  "https://localhost",
+];
 
 if FRONTEND_URL:
     allowed_origins.append(FRONTEND_URL)
