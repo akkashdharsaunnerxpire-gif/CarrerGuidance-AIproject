@@ -10,13 +10,7 @@ export const AdminProvider = ({ children }) => {
   const fetchStudents = async () => {
     try {
       setLoading(true);
-<<<<<<< HEAD
-      const res = await axios.get(
-        `${process.env.VITE_BACKEND_URL}/admin/students`
-      );
-=======
       const res = await axios.get(`${API}/admin/students`);
->>>>>>> 9067676 (fix env variables and routes)
       setStudents(res.data);
     } catch (err) {
       console.error(err);

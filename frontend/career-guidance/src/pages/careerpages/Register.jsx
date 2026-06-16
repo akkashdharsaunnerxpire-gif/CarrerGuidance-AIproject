@@ -53,11 +53,7 @@ const Register = () => {
     setLoading(true);
 
     try {
-<<<<<<< HEAD
-      await axios.post(`${process.env.VITE_BACKEND_URL}/auth/register`, {
-=======
       await axios.post(`${API}/auth/register`, {
->>>>>>> 9067676 (fix env variables and routes)
         name: formData.name,
         email: formData.email,
         password: formData.password,

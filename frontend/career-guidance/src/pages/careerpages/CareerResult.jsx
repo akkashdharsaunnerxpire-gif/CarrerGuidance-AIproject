@@ -52,12 +52,8 @@ const CareerResult = () => {
 
     try {
       setSubmitting(true);
-
-<<<<<<< HEAD
-      await axios.post("${process.env.VITE_BACKEND_URL}/review/add", {
-=======
       await axios.post(`${API}/review/add`, {
->>>>>>> 9067676 (fix env variables and routes)
+
         user_uuid: user.uuid,
         rating,
         review: comment,

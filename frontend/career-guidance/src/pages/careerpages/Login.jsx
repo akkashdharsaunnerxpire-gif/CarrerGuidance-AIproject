@@ -31,11 +31,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-<<<<<<< HEAD
-        `${process.env.VITE_BACKEND_URL}/auth/login`,
-=======
         `${API}/auth/login`,
->>>>>>> 9067676 (fix env variables and routes)
         { email, password },
         { headers: { "Content-Type": "application/json" } },
       );
