@@ -28,7 +28,7 @@ print("===================================")
 
 # Allowed origins
 allowed_origins = [
-  "https://peoplevoice-webapplicatiion.onrender.com",
+  "https://carrerguidance-aiproject.onrender.com",
   "https://localhost",
 ];
 
